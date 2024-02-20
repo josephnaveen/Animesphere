@@ -18,27 +18,13 @@ nav{
     height:15vh;
     width: 100%;
 }
-.nav-container {
-    flex:3;
-}
-ul{
-    margin-left: 75%;
-    display:flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-    list-style: none;
 
-}
-.list {
-    cursor: pointer;
+.logo-container h1 {
+    font-size: 25px;
 }
 
-ul li a {
-    text-decoration: none;
-    color: white;
-}
-ul li:hover{
-    color: white;
+.logo-container p {
+    font-size: 18px;
 }
 .logo-container {
     flex:1;
@@ -49,9 +35,35 @@ ul li:hover{
     text-align: center;
 }
 
-input{
+.nav-container {
+    flex:3;
+    height:100%;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+
+.nav-container > ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+
+}
+
+.nav-container ul li {
+   text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.3em;
+   cursor: pointer;
+}
+
+ input {
     width: 60%;
     padding: 15px;
+    border-radius: 30px;
 }
 .searchbar {
     padding: 50px;
